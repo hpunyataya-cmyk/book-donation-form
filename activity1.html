@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Document type declaration -->
+<html lang="en">
+<!-- HTML Document starts -->
+
+<head>
+    <!-- Head section starts -->
+    <meta charset="UTF-8">
+    <title>Book Donation Campaign Form</title>
+    <!-- Title for browser tab -->
+</head>
+<!-- Head section ends -->
+
+<body>
+    <!-- Main content starts -->
+    <h1>Book Donation Campaign Form</h1>
+    <p>Fill in the form below to Donate</p>
+    <hr>
+     <form>
+        <fieldset>
+            <legend>Donor Details</legend>
+            <label>Your Name</label><br>
+            <input type="text" id="name" placeholder="Enter Your Name"><br>
+            <br>
+            <label> Donor ID</label><br>
+            <input type="password" id="pid" placeholder="Enter your Donor ID"><br>
+            <br>
+            <label>Date of Donation</label>
+            <input type="date" id="dob" placeholder="Donation Date"><br>
+            <legend>Book Details</legend>
+            <label>Book Category</label><br>
+            <br>
+            <select id="Book"><br>
+                <option value->--Select a Book Category--</option>
+                <option value="Fiction">Fiction/Story Books</option>
+                <option value="Novels">Novels by Authors for kids</option>
+                <option value="Biography">Biographies/Autobiographies</option>
+                <option value="School Books">School Subject Books</option>
+
+            </select><br><br>
+            <label>Description about the book</label><br>
+            <textarea id="notes" rows="3" cols="35" placeholder="eg. The Book, Fourth Friend by Author XYZ is suitable for 8-12 year age group "></textarea><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Drop off Day</legend>
+            <input type="checkbox" value="mon">Monday<br>
+            <input type="checkbox" value="wed">Wednesday<br>
+            <input type="checkbox" value="fri">Friday<br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit my form ">
+
+    
+
+     </form>
+     </body>
+     </html>
